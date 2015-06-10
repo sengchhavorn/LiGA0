@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>テンプレート</title>
+	<meta name="viewport" content="width=device-width,target-densitydpi=device-dpi,user-scalable=yes,maximum-scale=1.0" />
+	<meta name="robots" content="index,follow">
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="assets/css/jquery.bxslider.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="assets/js/jquery.bxslider.min.js"></script>
+	<script src="assets/js/common.js"></script>
+</head>
+<body>
+
+<div class="l-titlebar">
+	<div class="wrap">
+		<h1>h1テキストh1テキストh1テキスト</h1>
+	</div>
+</div><!-- /.titlebar -->
+
+<header class="l-header">
+	<div class="wrap">
+		<div class="header-logo">
+			<a href="#"><img src="assets/img/layout/header/logo.png" width="300" height="55" alt="ロゴ"></a>
+		</div>
+		<div class="header-btn">
+			<ul>
+				<li><a href="#"><img src="assets/img/layout/header/header_login.png" width="100" height="25" alt="ログイン"></a></li>
+				<li><a href="#"><img src="assets/img/layout/header/header_regist.png" width="100" height="25" alt="登録"></a></li>
+			</ul>
+		</div>
+	</div>
+</header><!-- /.l-header -->
+
+<nav class="l-navi">
+	<ul class="navi-list float-list">
+		<li><a href="#"><img src="assets/img/layout/navi/navi_01.png" width="110" height="50" alt="ホーム"></a></li>
+		<li><a href="#"><img src="assets/img/layout/navi/navi_02.png" width="110" height="50" alt="LDのこだわり"></a></li>
+		<li><a href="#"><img src="assets/img/layout/navi/navi_03.png" width="110" height="50" alt="大会検索"></a></li>
+		<li><a href="#"><img src="assets/img/layout/navi/navi_04.png" width="110" height="50" alt="フットサル大会"></a></li>
+		<li><a href="#"><img src="assets/img/layout/navi/navi_05.png" width="110" height="50" alt="ソサイチ大会"></a></li>
+		<li><a href="#"><img src="assets/img/layout/navi/navi_06.png" width="110" height="50" alt="大会参加の流れ"></a></li>
+		<li><a href="#"><img src="assets/img/layout/navi/navi_07.png" width="110" height="50" alt="チーム登録"></a></li>
+		<li><a href="#"><img src="assets/img/layout/navi/navi_08.png" width="110" height="50" alt="大会結果ブログ"></a></li>
+		<li><a href="#"><img src="assets/img/layout/navi/navi_09.png" width="110" height="50" alt="お問い合わせ"></a></li>
+	</ul>
+</nav><!-- .l-navi -->
+
+<main class="l-contents cf">
+	<section class="mainarea">
+
+		<div class="l-slider">
+			<ul class="slider">
+				<li><img src="assets/img/slider/mv.jpg" width="720" height="360" alt/></li>
+				<li><img src="assets/img/slider/mv.jpg" width="720" height="360" alt/></li>
+			</ul>
+		</div><!-- /.l-slider -->
+		<div class="l-pickup">
+			<ul class="pickup-list float-list">
+				<li><a href="#"><img src="assets/img/sample/sample_recommend.png" width="230" height="80" alt="おすすめ大会"></a></li>
+				<li><a href="#"><img src="assets/img/sample/sample_recommend.png" width="230" height="80" alt="おすすめ大会"></a></li>
+				<li><a href="#"><img src="assets/img/sample/sample_recommend.png" width="230" height="80" alt="おすすめ大会"></a></li>
+			</ul>
+		</div><!-- /.l-pickup -->
+		<div class="l-top-caption">
+			Liga DiveRTida(ligad)は埼玉・神奈川・東京（東京都内・２３区内）にて、<span class="red-strong">「短い」「オトク」「楽しい」</span>をコンセプトにフットサルやソサイチ（7人制&amp;8人制サッカー）や１１人制サッカーの大会を開催しております。
+普通の大会では体験できないスピードガンコンテンストなどの楽しいコンテンツも実施しております。
+参加していただいた皆様に「楽しい」時間を提供できるように努力して参ります。 激安の大会・超豪華景品の大会・スーパービギナー向け（初心者）のハンデ有の大会・待ち時間の短い大会など、皆様のニーズにあった大会を企画・運営していきます。 フットサルのルールがわからない方でも気軽に参加できるように、エンジョイ思考のルールも採用します。
+		</div><!-- /.l-top-caption -->
+		<div class="l-top-search mainbox">
+			<div class="headline">
+				<p class="headline-title">大会を検索する</p>
+			</div>
+			<div class="smallbox">
+				<form name="search_form" id="search_form" method="get" action="/eccube/html/products/list.php">
+					<input type="hidden" name="transactionid" value="fd850f5bb6071f77fae345645542aa707e35ccb2">
+					<dl class="formlist">
+						<dt>指定カテゴリから開く</dt>
+						<dd>
+							<input type="hidden" name="mode" value="search">
+							<select name="category_id" class="box145">
+								<option label="全ての大会" value="">全ての大会</option>
+								<option label="&nbsp;&nbsp;テスト01" value="7">&nbsp;&nbsp;テスト01</option>
+							</select>
+						</dd>
+					</dl>
+					<dl class="formlist">
+						<dt>大会名を入力</dt>
+						<dd><input type="text" name="name" class="box140" maxlength="50" value=""></dd>
+					</dl>
+					<dl class="formlist">
+						<dt>キーワードで絞る</dt>
+						<dd><input class="box140" type="text" name="SearchProductsAddConditionComment" maxlength="50" value=""></dd>
+					</dl>
+					<dl class="formlist">
+						<dt>商品ステータスで絞る</dt>
+						<dd>
+							<label><input type="checkbox" name="SearchProductsAddConditionStatusCheckboxes[]" value="1" />NEW</label><br />
+							<label><input type="checkbox" name="SearchProductsAddConditionStatusCheckboxes[]" value="2" />残りわずか</label><br />
+							<label><input type="checkbox" name="SearchProductsAddConditionStatusCheckboxes[]" value="3" />ポイント２倍</label><br />
+							<label><input type="checkbox" name="SearchProductsAddConditionStatusCheckboxes[]" value="4" />オススメ</label><br />
+							<label><input type="checkbox" name="SearchProductsAddConditionStatusCheckboxes[]" value="5" />限定品</label><br />
+						</dd>
+					</dl>
+					<dl class="formlist">
+						<dt>販売価格(税込)で絞る</dt>
+						<dd>
+							<input type="number" name="SearchProductsAddConditionPriceFrom" maxlength="9" value="" min="0" style="width: 100px;" />&nbsp;円から
+							<input type="number" name="SearchProductsAddConditionPriceTo" maxlength="9" value="" min="0" style="width: 100px;" />&nbsp;円まで
+						</dd>
+					</dl>
+					<p class="btn">
+						<input type="image" class="hover_change_image" ame="search">
+					</p>
+                </form>
+			</div>
+		</div><!-- /.l-search -->
+		<div class="l-schedule mainbox">
+			<div class="headline">
+				<p class="headline-title">大会スケジュール</p>
+				<div class="headline-btn"><a href="#"><img src="assets/img/top/btn_readmore.png" width="80" height="18" alt="もっと見る"></a></div>
+			</div>
+			<div class="smallbox">
+				<table class="schedule-table">
+					<tr>
+						<th>
+							<p class="schedule-date">12月12日</p>
+							<p class="schedule-title">フットサル大会開催　アミノバイタルフィールドテキステキストテキストテキストテキストテキスト…</p>
+						</th>
+						<td>
+							テキストテキストテキストテキストテキストテキストテテキスキストテキストテキストテキストテキストテキストテキテキスキストテキストテキストテキストテキストテキストテキ
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<p class="schedule-date">12月12日</p>
+							<p class="schedule-title">フットサル大会開催　アミノバイタルフィールドテキステキストテキストテキストテキストテキスト…</p>
+						</th>
+						<td>
+							テキストテキストテキストテキストテキストテキストテテキスキストテキストテキストテキストテキストテキストテキテキスキストテキストテキストテキストテキストテキストテキ
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<p class="schedule-date">12月12日</p>
+							<p class="schedule-title">フットサル大会開催　アミノバイタルフィールドテキステキストテキストテキストテキストテキスト…</p>
+						</th>
+						<td>
+							テキストテキストテキストテキストテキストテキストテテキスキストテキストテキストテキストテキストテキストテキテキスキストテキストテキストテキストテキストテキストテキ
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<p class="schedule-date">12月12日</p>
+							<p class="schedule-title">フットサル大会開催　アミノバイタルフィールドテキステキストテキストテキストテキストテキスト…</p>
+						</th>
+						<td>
+							テキストテキストテキストテキストテキストテキストテテキスキストテキストテキストテキストテキストテキストテキテキスキストテキストテキストテキストテキストテキストテキ
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div><!-- /.l-schedule -->
+		<div class="l-place mainbox">
+			<div class="headline">
+				<p class="headline-title">開催場所情報</p>
+			</div>
+			<div class="smallbox">
+				<div class="place-head">
+					<h2 class="place-name">東京の会場</h2>
+				</div>
+				<ul class="place-list float-list">
+					<li>
+						<div class="place-top cf">
+							<div class="place-left">
+								<img src="assets/img/sample/sample_place.jpg" width="140" height="80" alt="サンプル">
+							</div>
+							<div class="place-right">
+								<h3>豊川枝川グラウンド</h3>
+								<p>会場紹介テキストテキストテキストテキストテキストテキストテキストテキスト…</p>
+							</div>
+						</div>
+						<div class="place-bottom">
+							<p class="place-detail">東京都新宿区西新宿6-11-7テキストテキスト</p>
+							<p class="place-caption">新宿駅から徒歩5分</p>
+						</div>
+					</li>
+					<li>
+						<div class="place-top cf">
+							<div class="place-left">
+								<img src="assets/img/sample/sample_place.jpg" width="140" height="80" alt="サンプル">
+							</div>
+							<div class="place-right">
+								<h3>豊川枝川グラウンド</h3>
+								<p>会場紹介テキストテキストテキストテキストテキストテキストテキストテキスト…</p>
+							</div>
+						</div>
+						<div class="place-bottom">
+							<p class="place-detail">東京都新宿区西新宿6-11-7テキストテキスト</p>
+							<p class="place-caption">新宿駅から徒歩5分</p>
+						</div>
+					</li>
+					<li>
+						<div class="place-top cf">
+							<div class="place-left">
+								<img src="assets/img/sample/sample_place.jpg" width="140" height="80" alt="サンプル">
+							</div>
+							<div class="place-right">
+								<h3>豊川枝川グラウンド</h3>
+								<p>会場紹介テキストテキストテキストテキストテキストテキストテキストテキスト…</p>
+							</div>
+						</div>
+						<div class="place-bottom">
+							<p class="place-detail">東京都新宿区西新宿6-11-7テキストテキスト</p>
+							<p class="place-caption">新宿駅から徒歩5分</p>
+						</div>
+					</li>
+					<li>
+						<div class="place-top cf">
+							<div class="place-left">
+								<img src="assets/img/sample/sample_place.jpg" width="140" height="80" alt="サンプル">
+							</div>
+							<div class="place-right">
+								<h3>豊川枝川グラウンド</h3>
+								<p>会場紹介テキストテキストテキストテキストテキストテキストテキストテキスト…</p>
+							</div>
+						</div>
+						<div class="place-bottom">
+							<p class="place-detail">東京都新宿区西新宿6-11-7テキストテキスト</p>
+							<p class="place-caption">新宿駅から徒歩5分</p>
+						</div>
+					</li>
+					<li>
+						<div class="place-top cf">
+							<div class="place-left">
+								<img src="assets/img/sample/sample_place.jpg" width="140" height="80" alt="サンプル">
+							</div>
+							<div class="place-right">
+								<h3>豊川枝川グラウンド</h3>
+								<p>会場紹介テキストテキストテキストテキストテキストテキストテキストテキスト…</p>
+							</div>
+						</div>
+						<div class="place-bottom">
+							<p class="place-detail">東京都新宿区西新宿6-11-7テキストテキスト</p>
+							<p class="place-caption">新宿駅から徒歩5分</p>
+						</div>
+					</li>
+					<li>
+						<div class="place-top cf">
+							<div class="place-left">
+								<img src="assets/img/sample/sample_place.jpg" width="140" height="80" alt="サンプル">
+							</div>
+							<div class="place-right">
+								<h3>豊川枝川グラウンド</h3>
+								<p>会場紹介テキストテキストテキストテキストテキストテキストテキストテキスト…</p>
+							</div>
+						</div>
+						<div class="place-bottom">
+							<p class="place-detail">東京都新宿区西新宿6-11-7テキストテキスト</p>
+							<p class="place-caption">新宿駅から徒歩5分</p>
+						</div>
+					</li>
+					<li>
+						<div class="place-top cf">
+							<div class="place-left">
+								<img src="assets/img/sample/sample_place.jpg" width="140" height="80" alt="サンプル">
+							</div>
+							<div class="place-right">
+								<h3>豊川枝川グラウンド</h3>
+								<p>会場紹介テキストテキストテキストテキストテキストテキストテキストテキスト…</p>
+							</div>
+						</div>
+						<div class="place-bottom">
+							<p class="place-detail">東京都新宿区西新宿6-11-7テキストテキスト</p>
+							<p class="place-caption">新宿駅から徒歩5分</p>
+						</div>
+					</li>
+					<li>
+						<div class="place-top cf">
+							<div class="place-left">
+								<img src="assets/img/sample/sample_place.jpg" width="140" height="80" alt="サンプル">
+							</div>
+							<div class="place-right">
+								<h3>豊川枝川グラウンド</h3>
+								<p>会場紹介テキストテキストテキストテキストテキストテキストテキストテキスト…</p>
+							</div>
+						</div>
+						<div class="place-bottom">
+							<p class="place-detail">東京都新宿区西新宿6-11-7テキストテキスト</p>
+							<p class="place-caption">新宿駅から徒歩5分</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div><!-- /.l-place -->
+		<div class="l-about mainbox">
+			<div class="headline">
+				<p class="headline-title">フットサルとソサイチ</p>
+			</div>
+			<div class="smallbox">
+				<ul class="about-list float-list">
+					<li class="cf">
+						<div class="about-thumb">
+						</div>
+						<div class="about-text">
+							<h3>フットサルとは？</h3>
+							<p>説明テキストテキストテキストテキステキストテキストキストテキストテキテキストテキストキストテキストテキテキストテキストキストテキストテキストテキストテキスト</p>
+						</div>
+					</li>
+					<li class="cf">
+						<div class="about-thumb">
+						</div>
+						<div class="about-text">
+							<h3>フットサルとは？</h3>
+							<p>説明テキストテキストテキストテキステキストテキストキストテキストテキテキストテキストキストテキストテキテキストテキストキストテキストテキストテキストテキスト</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div><!-- /.l-about -->
+
+	</section><!-- /.mainarea -->
+
+	<aside class="l-side sidebar">
+		<div class="side-banner-top">
+			<ul class="banner-list">
+				<li><a href="#"><img src="assets/img/layout/sidebar/sidebar_banner_01.png" width="260" height="140" alt="個人参加"></a></li>
+				<li><a href="#"><img src="assets/img/layout/sidebar/sidebar_banner_02.png" width="260" height="140" alt="チームランキング"></a></li>
+				<li><a href="#"><img src="assets/img/layout/sidebar/sidebar_banner_03.png" width="260" height="140" alt="L-girl"></a></li>
+			</ul>
+		</div><!-- /.side-banner-top -->
+		<div class="side-login-box mainbox">
+			<div class="headline">
+				<p class="headline-title">ログイン</p>
+			</div>
+			<div class="smallbox">
+				<dl>
+					<dt>ID:</dt>
+					<dd><input type="text" placeholder="テキスト"></dd>
+				</dl>
+				<dl>
+					<dt>PW:</dt>
+					<dd><input type="text" placeholder="テキスト"></dd>
+				</dl>
+				<div class="login-btn"><a href="#"><img src="assets/img/layout/sidebar/sidebar_login.png" width="220" height="30" alt="ログイン"></a></div>
+				<p class="side-login-caution"><a href="#">※PWを忘れた方はこちら</a></p>
+				<p class="side-login-caution"><a href="#">※会員登録はこちらから</a></p>
+			</div>
+		</div><!-- /.side-login-box -->
+		<div class="side-menu mainbox">
+			<ul class="side-menu-list">
+				<li><a href="#"><img src="assets/img/layout/sidebar/sidebar_menu_01.png" width="258" height="38" alt="ホーム"></a></li>
+				<li><a href="#"><img src="assets/img/layout/sidebar/sidebar_menu_02.png" width="258" height="38" alt="LDのこだわり"></a></li>
+				<li><a href="#"><img src="assets/img/layout/sidebar/sidebar_menu_03.png" width="258" height="38" alt="大会検索"></a></li>
+				<li><a href="#"><img src="assets/img/layout/sidebar/sidebar_menu_04.png" width="258" height="38" alt="フットサル大会"></a></li>
+				<li><a href="#"><img src="assets/img/layout/sidebar/sidebar_menu_05.png" width="258" height="38" alt="ソサイチ大会"></a></li>
+				<li><a href="#"><img src="assets/img/layout/sidebar/sidebar_menu_06.png" width="258" height="38" alt="大会参加の流れ"></a></li>
+				<li><a href="#"><img src="assets/img/layout/sidebar/sidebar_menu_07.png" width="258" height="38" alt="チーム登録"></a></li>
+				<li><a href="#"><img src="assets/img/layout/sidebar/sidebar_menu_08.png" width="258" height="38" alt="チームランキング"></a></li>
+				<li><a href="#"><img src="assets/img/layout/sidebar/sidebar_menu_09.png" width="258" height="38" alt="Lガール"></a></li>
+				<li><a href="#"><img src="assets/img/layout/sidebar/sidebar_menu_10.png" width="258" height="38" alt="大会結果ブログ"></a></li>
+				<li><a href="#"><img src="assets/img/layout/sidebar/sidebar_menu_11.png" width="258" height="38" alt="お問い合わせ"></a></li>
+			</ul>
+		</div><!-- /.side-menu -->
+		<div class="side-banner-bottom">
+			<ul class="banner-list">
+				<li><a href="#"><img src="assets/img/layout/sidebar/sidebar_minibanner_01.png" width="260" height="90" alt="HIS"></a></li>
+				<li><a href="#"><img src="assets/img/layout/sidebar/sidebar_minibanner_02.png" width="260" height="90" alt="RAIZIN"></a></li>
+				<li><a href="#"><img src="assets/img/layout/sidebar/sidebar_minibanner_03.png" width="260" height="90" alt="PIF"></a></li>
+			</ul>
+		</div><!-- /.side-banner-bottom -->
+	</aside><!-- ./l-side -->
+
+</main><!-- /.l-contents -->
+
+<footer class="l-footer">
+	<div class="wrap">
+		<div class="footer-logo">	
+			<img src="assets/img/layout/header/logo.png" width="300" height="55" alt="ロゴ">
+		</div>
+		<ul class="footer-navi-list float-list">
+			<li><a href="#">ホーム</a></li>
+			<li><a href="#">LDのこだわり</a></li>
+			<li><a href="#">大会検索</a></li>
+			<li><a href="#">フットサル大会</a></li>
+			<li><a href="#">ソサイチ大会</a></li>
+			<li><a href="#">大会参加の流れ</a></li>
+			<li><a href="#">チーム登録</a></li>
+			<li><a href="#">大会結果ブログ</a></li>
+			<li><a href="#">お問い合わせ</a></li>
+		</ul>
+		<h4 class="copyright-top">東京でフットサル大会・ソサイチ大会をするならLiGA DiveRTida</h4>
+		<p class="copyright-bottom">Copyright &copy; LIGA-d. All rights reserved.</p>
+	</div>
+</footer><!-- /.l-footer -->
+
+</body>
+</html>
